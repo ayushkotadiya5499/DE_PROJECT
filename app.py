@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 from deep_translator import GoogleTranslator
 from langchain_core.prompts import PromptTemplate
-from langchain_openai import OpenAI
+from langchain.llms import OpenAI
 from gtts import gTTS
 from dotenv import load_dotenv
 import os
