@@ -1,0 +1,9 @@
+streamlit
+pytesseract
+Pillow
+deep-translator
+gTTS
+python-dotenv
+langchain
+openai
+tiktoken
