@@ -32,7 +32,7 @@ else:
     st.warning("⚠️ Please set OPENAI_API_KEY in your .env file.")
 
 # Path to Tesseract (update if needed)
-#pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 st.title("🆔 ID Card OCR + Translate + Speak + AI Summary")
 
